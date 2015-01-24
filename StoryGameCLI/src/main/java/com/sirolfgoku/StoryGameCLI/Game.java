@@ -17,10 +17,7 @@ public class Game {
 		init();
 		gameLoop();
 	}
-	
-	public void Name() {
-		System.out.println("sfgdfsgsfg");
-	}
+
 
 	private void gameLoop() {
 		while(true) {
