@@ -1,11 +1,11 @@
-package com.sirolf2009.StoryGameCLI.rooms;
+package com.sirolfgoku.StoryGameCLI.rooms.dungeon;
 
 import java.util.Scanner;
 
 import com.sirolfgoku.StoryGameCLI.Game;
-import com.sirolfgoku.StoryGameCLI.Room;
+import com.sirolfgoku.StoryGameCLI.Level;
 
-public class RoomCell extends Room {
+public class RoomCell extends Level {
 
 	private boolean hasShivedDoor;
 	
@@ -60,6 +60,12 @@ public class RoomCell extends Room {
 	@Override
 	public void lookAround() {
 		print("You see a bed and a door.\nThe walls are made out of stone.");
+	}
+
+	@Override
+	public String welcomingMessage() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }

@@ -2,9 +2,9 @@ package com.sirolfgoku.StoryGameCLI;
 
 import java.util.Scanner;
 
-public class Room {
+public abstract class Level {
 
-	public Room() {
+	public Level() {
 	}
 	
 	public boolean handleCommands(Scanner scanner, String command) {
@@ -32,6 +32,8 @@ public class Room {
 	public void lookAround() {
 		print("There is nothing here");
 	}
+	
+	public abstract String welcomingMessage();
 	
 	public void print(Object msg) {
 		System.out.println(msg);

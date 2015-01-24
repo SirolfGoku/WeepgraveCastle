@@ -2,12 +2,12 @@ package com.sirolfgoku.StoryGameCLI;
 
 import java.util.Scanner;
 
-import com.sirolf2009.StoryGameCLI.rooms.RoomCell;
+import com.sirolfgoku.StoryGameCLI.rooms.dungeon.RoomCell;
 
 public class Game {
 	
 	private Scanner scanner;
-	private Room currentRoom;
+	private Level currentRoom;
 
 	public static Player player;
 	public static Game instance;
@@ -36,11 +36,11 @@ public class Game {
 		System.out.println("You wake up in a room you do not know");
 	}
 	
-	public Room getCurrentRoom() {
+	public Level getCurrentRoom() {
 		return currentRoom;
 	}
 
-	public void setCurrentRoom(Room currentRoom) {
+	public void setCurrentRoom(Level currentRoom) {
 		this.currentRoom = currentRoom;
 	}
 
