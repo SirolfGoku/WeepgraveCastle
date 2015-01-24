@@ -1,6 +1,6 @@
 package com.sirolf2009.StoryGameCLI.rooms;
 
-import com.sirolf2009.StoryGameCLI.Room;
+import com.sirolfgoku.StoryGameCLI.Room;
 
 public class RoomDungeonHallway extends Room {
 

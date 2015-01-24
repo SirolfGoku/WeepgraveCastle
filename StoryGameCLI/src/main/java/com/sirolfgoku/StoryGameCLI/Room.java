@@ -1,4 +1,4 @@
-package com.sirolf2009.StoryGameCLI;
+package com.sirolfgoku.StoryGameCLI;
 
 import java.util.Scanner;
 

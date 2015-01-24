@@ -1,4 +1,4 @@
-package com.sirolf2009.StoryGameCLI;
+package com.sirolfgoku.StoryGameCLI;
 
 import java.util.ArrayList;
 import java.util.List;

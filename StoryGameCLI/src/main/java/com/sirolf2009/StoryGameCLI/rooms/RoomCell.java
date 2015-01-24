@@ -2,8 +2,8 @@ package com.sirolf2009.StoryGameCLI.rooms;
 
 import java.util.Scanner;
 
-import com.sirolf2009.StoryGameCLI.Game;
-import com.sirolf2009.StoryGameCLI.Room;
+import com.sirolfgoku.StoryGameCLI.Game;
+import com.sirolfgoku.StoryGameCLI.Room;
 
 public class RoomCell extends Room {
 
