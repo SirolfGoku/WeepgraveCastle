@@ -3,6 +3,7 @@ package com.sirolfgoku.StoryGameCLI;
 import java.util.Scanner;
 
 import com.sirolfgoku.StoryGameCLI.rooms.dungeon.RoomCell;
+import com.sirolfgoku.StoryGameCLI.rooms.forest.ForestEnter;
 
 public class Game {
 	
@@ -31,7 +32,7 @@ public class Game {
 	private void init() {
 		scanner = new Scanner(System.in);
 		scanner.useDelimiter("\n");
-		currentRoom = new RoomCell();
+		currentRoom = new ForestEnter();
 		player = new Player();
 		System.out.println("You wake up in a room you do not know");
 	}
